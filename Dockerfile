@@ -21,9 +21,6 @@ ENV PATH /app/node_modules/.bin:$PATH
 # Copy the entire project
 COPY . ./
 
-# Build the React application
-RUN npm run build
-
 
 # Start the server
 CMD ["npm","start"]
