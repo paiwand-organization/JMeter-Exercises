@@ -10,6 +10,9 @@ COPY package*.json ./
 
 RUN npm init -y 
 
+
+
+
 # Install dependencies
 RUN npm install
 
